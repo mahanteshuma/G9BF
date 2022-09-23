@@ -14,12 +14,12 @@
       <![CDATA[Browser setting Completed]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-09-17T15:44:35 IST" name="Default suite" finished-at="2022-09-17T15:44:52 IST" duration-ms="16867">
+  <suite started-at="2022-09-20T20:41:24 IST" name="Default suite" finished-at="2022-09-20T20:43:31 IST" duration-ms="126983">
     <groups>
     </groups>
-    <test started-at="2022-09-17T15:44:35 IST" name="Default test" finished-at="2022-09-17T15:44:52 IST" duration-ms="16867">
-      <class name="com.guru99bank.testcases.TC_001_LoginPage">
-        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.guru99bank.testcases.TC_001_LoginPage@10e31a9a]" started-at="2022-09-17T15:44:35 IST" name="setUpSuite" finished-at="2022-09-17T15:44:35 IST" duration-ms="137" status="PASS">
+    <test started-at="2022-09-20T20:41:24 IST" name="Default test" finished-at="2022-09-20T20:43:31 IST" duration-ms="126983">
+      <class name="com.guru99bank.testcases.TC_003_NewAccount">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.guru99bank.testcases.TC_003_NewAccount@16d04d3d]" started-at="2022-09-20T20:41:23 IST" name="setUpSuite" finished-at="2022-09-20T20:41:24 IST" duration-ms="173" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Setting Up Started and test is getting ready]]>
@@ -29,7 +29,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.guru99bank.testcases.TC_001_LoginPage@10e31a9a]" started-at="2022-09-17T15:44:35 IST" name="setup" finished-at="2022-09-17T15:44:38 IST" duration-ms="2836" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.guru99bank.testcases.TC_003_NewAccount@16d04d3d]" started-at="2022-09-20T20:41:24 IST" name="setup" finished-at="2022-09-20T20:41:26 IST" duration-ms="2046" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser setting started]]>
@@ -39,26 +39,26 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginTest()[pri:0, instance:com.guru99bank.testcases.TC_001_LoginPage@10e31a9a]" started-at="2022-09-17T15:44:38 IST" name="LoginTest" finished-at="2022-09-17T15:44:51 IST" duration-ms="13273" status="PASS">
+        <test-method signature="AddNewAccount()[pri:0, instance:com.guru99bank.testcases.TC_003_NewAccount@16d04d3d]" started-at="2022-09-20T20:41:26 IST" name="AddNewAccount" finished-at="2022-09-20T20:43:30 IST" duration-ms="124209" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.guru99bank.testcases.TC_001_LoginPage@10e31a9a]" started-at="2022-09-17T15:44:51 IST" name="tearDownMethod" finished-at="2022-09-17T15:44:52 IST" duration-ms="413" status="PASS">
+        </test-method> <!-- AddNewAccount -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.guru99bank.testcases.TC_003_NewAccount@16d04d3d]" started-at="2022-09-20T20:43:30 IST" name="tearDownMethod" finished-at="2022-09-20T20:43:30 IST" duration-ms="454" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=TC_001_LoginPage.LoginTest()[pri:0, instance:com.guru99bank.testcases.TC_001_LoginPage@10e31a9a] output={null}]]]>
+                <![CDATA[[TestResult name=AddNewAccount status=SUCCESS method=TC_003_NewAccount.AddNewAccount()[pri:0, instance:com.guru99bank.testcases.TC_003_NewAccount@16d04d3d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.guru99bank.testcases.TC_001_LoginPage@10e31a9a]" started-at="2022-09-17T15:44:52 IST" name="tearDown" finished-at="2022-09-17T15:44:52 IST" duration-ms="304" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.guru99bank.testcases.TC_003_NewAccount@16d04d3d]" started-at="2022-09-20T20:43:30 IST" name="tearDown" finished-at="2022-09-20T20:43:31 IST" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.guru99bank.testcases.TC_001_LoginPage -->
+      </class> <!-- com.guru99bank.testcases.TC_003_NewAccount -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

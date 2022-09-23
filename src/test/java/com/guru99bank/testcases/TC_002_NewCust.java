@@ -34,9 +34,9 @@ public class TC_002_NewCust extends BaseClass {
 		nc.custName("Mahantesh");
 		logger.info("custName");
 		nc.custgender("male");
-		logger.info("custName");
+		logger.info("custGender");
 		nc.custdob("7", "9", "1998");
-		logger.info("custgender");
+		logger.info("custdob");
 		nc.custadders("Kar123");
 		logger.info("custadders");
 		nc.custcity("Bgm");
@@ -51,19 +51,19 @@ public class TC_002_NewCust extends BaseClass {
 		nc.custpassword("umamah");
 		nc.custsubmit();
 
-		boolean res = driver.getPageSource().contains("Customer Registered Successfuly!!!");
+		boolean res = driver.getTitle().equals("Guru99 Bank Customer Registration Page");
 
 		if (res == true) {
 			Assert.assertTrue(true);
 			Helper.captureScreenshot(driver);
 			logger.pass("Cust Registered Success done");
-		} //else 
-//		{
-//
-//			Assert.assertTrue(false);
-//			Helper.captureScreenshot(driver);
-//			logger.pass("Cust Registered Success failed");
-//		}
+		} else 
+		{
+
+			Assert.assertTrue(false);
+			Helper.captureScreenshot(driver);
+			logger.pass("Cust Registered  failed");
+		}
 	}
 
 	public String randomestring() {

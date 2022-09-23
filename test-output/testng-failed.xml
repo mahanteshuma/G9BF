@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.guru99bank.testcases.TC_002_LoginPageDDT">
+      <class name="com.guru99bank.testcases.TC_003_NewAccount">
         <methods>
           <include name="tearDownMethod"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="LoginDDT" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="AddNewAccount"/>
           <include name="setUpSuite"/>
         </methods>
-      </class> <!-- com.guru99bank.testcases.TC_002_LoginPageDDT -->
+      </class> <!-- com.guru99bank.testcases.TC_003_NewAccount -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

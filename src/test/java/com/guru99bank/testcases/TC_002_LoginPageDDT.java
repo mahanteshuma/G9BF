@@ -26,6 +26,16 @@ public class TC_002_LoginPageDDT extends BaseClass  {
 		lp.ClickSubmit();
 		logger.info("clicked login button");
 		
+		if (driver.getTitle().equals("Guru99 Bank Manager HomePage")) {
+
+			Assert.assertTrue(true);
+			logger.pass("Login done");
+		} else 
+		{
+			Assert.assertTrue(false);
+			logger.fail("Login failed");
+		}
+		
 		if(isAlertPresent()==true)
 		{
 			driver.switchTo().alert().accept();//close alert
@@ -35,10 +45,10 @@ public class TC_002_LoginPageDDT extends BaseClass  {
 		}
 		else 
 		{
-			Assert.assertTrue(true);
-			logger.info("Login Passed");
 			driver.switchTo().alert().accept();//close logout alert
 			driver.switchTo().defaultContent();
+			Assert.assertTrue(true);
+			logger.info("Login Passed");
 		}
 	}
 	
